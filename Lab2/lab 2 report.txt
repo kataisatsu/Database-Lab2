@@ -1,0 +1,11 @@
+Hello dear TA,
+
+Here is a brief report of the work done in this second lab.
+
+The workload was practically the same as the first lab, but one member clearly distinguished himself and helped us save time, that member being none other than Karam Mohamed who quickly assimilated what was taught in class and was primarily responsible for the coding part. Aymane Jawadi and Amine Imakor played a key role in comprehending and assessing what needed to be done, as well as reviewing and assisting with the code.
+
+As for the difficulties, there were several. Initially, everyone pitched their own ideas, which led to some divergence. To resolve this, we debated our individual modeling choices and settled on solutions that follow what was taught in class while incorporating the best ideas from the group. For example, regarding the equipment unit, some argued that a laboratory attribute should be explicitly present, but we ultimately decided to use a foreign key l_id to identify which laboratory the equipment is located in. Other than that, no major problems were encountered.
+
+Regarding the justification of our modeling, we tried to rigorously apply what was taught in class. Our primary focus was maintaining structural logic and strict referential integrity to avoid data redundancies, ensuring every relationship is properly mapped.
+
+We made a few notable assumptions. For example, we assumed that an approver can only be an employee and not a student, which we implemented by having the approver_id foreign key reference the employee table. We also assumed that a string length of 100 characters would be sufficient for most, if not all, attributes. Finally, as mentioned, we assumed the equipment unit does not need a dedicated laboratory attribute, relying solely on the foreign key that references the laboratory.
